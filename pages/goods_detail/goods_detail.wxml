@@ -1,0 +1,78 @@
+<!-- <view class="detail_swiper">
+  <swiper
+  autoplay
+  circular
+  indicator-dots
+  >
+    <swiper-item
+    wx:for="{{goodsObj.pics}}"
+    wx:key="pics_id"
+    bindtap="handlePrevewImage"
+    data-url="{{item.pics_mid}}"
+    >
+    <image mode="widthFix" src="{{item.pics_mid}}" ></image>
+    </swiper-item>
+  </swiper>
+</view> -->
+<view class="weui-media-box__hd  img_box ">
+                
+                <!--图片链接  -->
+
+                <!-- <image class="weui-media-box__thumb"  src=""/>     -->
+                <!-- <image class="weui-media-box__thumb img_box" src="{{item.icon}}" /> -->
+                <image class="weui-media-box__thumb img_box" src="https://dss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=144360696,3324665996&fm=26&gp=0.jpg" />
+              </view>
+
+<!-- <view class="goods_price">￥{{goodsObj.goods_price}}</view> -->
+<view class="goods_price">￥20</view>
+<view class="goods_name_row">
+  <view class="goods_name">{{goodsObj.goods_name}}{{goodsObj.goods_name}}</view>
+  <view class="goods_collect" bindtap="handleCollect" >
+    <text class="iconfont   {{isCollect?'icon-shoucang1':'icon-shoucang'}} "></text>
+    <view class="collect_text">收藏</view>
+  </view>
+</view>
+
+<view class="goods_info">
+  <view class="goods_info_title">详情</view>
+  <view>宫保鸡丁是一道闻名中外的特色传统名菜，在鲁菜、川菜、贵州菜中都有收录...</view>
+  <view class="goods_info_content">
+    <!-- 富文本 -->
+    <!-- {{goodsObj.goods_introduce}} -->
+    <rich-text nodes="{{goodsObj.goods_introduce}}"></rich-text>
+  </view>
+</view>
+<view class="goods_info">
+  <view class="goods_info_title">评价</view>
+  <view>同学A:还不错</view>
+  <view>同学B:以后还会来</view>
+  <view>同学C:...</view>
+  <view class="goods_info_content">
+    <!-- 富文本 -->
+    <!-- {{goodsObj.goods_introduce}} -->
+    <rich-text nodes="{{goodsObj.goods_introduce}}"></rich-text>
+  </view>
+</view>
+
+<view class="btm_tool">
+  <view class="tool_item">
+    <view class="iconfont icon-kefu"></view>
+    <view>客服</view>
+    <button open-type="contact"></button>
+  </view>
+  <view class="tool_item">
+    <view class="iconfont icon-yixianshi-"></view>
+    <view>分享</view>
+    <button open-type="share"></button>
+  </view>
+  <!-- <navigator open-type="switchTab" url="/pages/cart/cart" class="tool_item">
+    <view class="iconfont icon-gouwuche"></view>
+    <view>购物车</view>
+  </navigator> -->
+  <!-- <view class="tool_item btn_cart " bindtap="handleCartAdd">
+添加到购物车
+  </view> -->
+  <!-- <view class="tool_item btn_buy">
+    去结算
+  </view> -->
+</view>

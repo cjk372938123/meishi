@@ -1,0 +1,8 @@
+<view class='imagesize' >
+  <image src='../../image/room.jpg'></image>
+  <view class='up'>
+    <button class='btn' bindtap="roombutton" size="mini" type="warn">
+      <text class="tx">麻辣烫</text>
+    </button>
+  </view>
+              </view>

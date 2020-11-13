@@ -1,0 +1,23 @@
+.imagesize{
+  width: 100%;
+  height: 600rpx;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+image{
+  position: absolute;
+  width: 100%;
+  height: 1200rpx;
+}
+.up{
+  position: absolute;
+  z-index: 1;
+  margin-top: 240px;
+  margin-left: 150px;
+  color: blue;
+}
+.btn{
+
+  width: 100px;
+}

@@ -1,0 +1,17 @@
+<view>
+  <text class="mtx">                          
+    
+     左右滑动可切换菜品
+
+  </text>
+</view>
+
+<view>
+  <swiper indicator-dots="{{false}}" indicator-color="#f4c903" circular="true">
+    <block wx:for="{{banner}}" wx:key="banner">
+      <swiper-item>
+        <image src='{{item.picUrl}}' mode="aspectFill" style="width:100%;height:100%;" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>

@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/change/change",
+    "pages/confirmOrder/confirmOrder",
+    "pages/mycomment/mycomment",
+    "pages/myOrder/myOrder",
+    "pages/me/me",
+    "pages/buy/buy",
+    "pages/paihao/paihao",
+    "pages/pay/pay",
+    "pages/map/map",
+    "pages/goods_detail/goods_detail",
+    "pages/room/room",
+    "pages/recommend/recommend"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1A42E6",
+    "navigationBarTitleText": "点餐",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#03091F",
+    "selectedColor": "#1A42E6",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "image/collect_selected.png",
+        "iconPath": "image/collect_unselect.png",
+        "pagePath": "pages/map/map",
+        "text": "地图"
+      },
+      {
+        "selectedIconPath": "image/tab_home_select.png",
+        "iconPath": "image/tab_home_unselect.png",
+        "pagePath": "pages/index/index",
+        "text": "餐厅"
+      },
+      {
+        "selectedIconPath": "image/tab_speech_select.png",
+        "iconPath": "image/tab_speech_unselect.png",
+        "pagePath": "pages/recommend/recommend",
+        "text": "推荐"
+      },
+      {
+        "selectedIconPath": "image/tab_contact_select.png",
+        "iconPath": "image/tab_contact_unselect.png",
+        "pagePath": "pages/me/me",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

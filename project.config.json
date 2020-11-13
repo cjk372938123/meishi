@@ -1,0 +1,176 @@
+{
+  "description": "项目配置文件",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": false,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": false,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": false,
+    "useApiHook": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": []
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.10.3",
+  "cloudfunctionRoot": "functions/",
+  "appid": "wxacbc7261a3fcf82a",
+  "projectname": "%E5%B0%8F%E7%A8%8B%E5%BA%8F111",
+  "debugOptions": {
+    "hidedInDevtools": []
+  },
+  "isGameTourist": false,
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": 1,
+          "name": "我的订单",
+          "pathName": "pages/myOrder/myOrder",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 1,
+          "name": "首页",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 3,
+          "name": "我的评价",
+          "pathName": "pages/mycomment/mycomment",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 3,
+          "name": "pages/buy/buy",
+          "pathName": "pages/buy/buy",
+          "query": "tableNum=1",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "确认订单",
+          "pathName": "pages/confirmOrder/confirmOrder",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "修改",
+          "pathName": "pages/change/change",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/change/change",
+          "pathName": "pages/change/change",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/mycomment/mycomment",
+          "pathName": "pages/mycomment/mycomment",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/me/me",
+          "pathName": "pages/me/me",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/paihao/paihao",
+          "pathName": "pages/paihao/paihao",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/goods_detail/goods_detail",
+          "pathName": "pages/goods_detail/goods_detail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/confirmOrder/confirmOrder",
+          "pathName": "pages/confirmOrder/confirmOrder",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/map/map",
+          "pathName": "pages/map/map",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/buy/buy",
+          "pathName": "pages/buy/buy",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/room/room",
+          "pathName": "pages/room/room",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/recommend/recommend",
+          "pathName": "pages/recommend/recommend",
+          "scene": null
+        }
+      ]
+    }
+  }
+}
