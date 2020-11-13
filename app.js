@@ -3,17 +3,17 @@ App({
   //创建towxml对象，供小程序页面使用
   globalData: {
     tmplIds: { 
-      quhao: 'XUtZ9U-PVqgZX7csDdVmmIXqY9SrDdIez7KMY82FT6g', //取号的模板,记得把这里换成你自己的
+      quhao: 'XUtZ9U-PVqgZX7csDdVmmIXqY9SrDdIez7KMY82FT6g', 
     },
     userInfo: {},
     openid: null,
     //baseUrl: 'http://localhost:8080/diancan' //本地调试
-     baseUrl: 'http://172.24.11.207:8080/diancan' //真机调试,这里的ip地址一定是你电脑的ip
+     baseUrl: 'http://172.24.11.207:8080/diancan' //真机调试
   },
   onLaunch: function () {
     //云开发初始化
     wx.cloud.init({
-      env: 'mycloudbase-6gejtriy40660917', //这里一定要换成你自己的云开发环境id
+      env: 'mycloudbase-6gejtriy40660917', 
       traceUser: true,
     })
     this.getOpenid();
